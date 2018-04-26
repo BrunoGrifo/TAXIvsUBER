@@ -1,0 +1,170 @@
+button {
+    background-color: Transparent;
+    font-family: Impact, Charcoal, sans-serif;
+    position:absolute;
+    left: 70%;
+    border: none;
+    cursor:pointer;
+    overflow: auto;
+    outline:none;
+    font-weight:900;
+    font-size: 200%;
+    color:#EF7B2A;
+}
+
+body{
+    background-size: 100% 100%;
+
+}
+.background {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+}
+
+#Back{
+    top:85%;
+    left: 85%;
+}
+
+#Back:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#Player1{
+    top:7%;
+    left: 15%;
+}
+
+#Player2{
+    top:7%;
+    left: 55%;
+}
+
+#Up{
+    top:15%;
+    left: 22%;
+    color:white;
+}
+
+#Left{
+    top:35%;
+    left: 12%;
+    color:white;
+}
+
+#Down{
+    top:45%;
+    left: 22.5%;
+    color:white;
+}
+
+#Right{
+    top:35%;
+    left: 35%;
+    color:white;
+}
+
+#Up2{
+    top:15%;
+    left: 62%;
+    color:white;
+}
+
+#Left2{
+    top:35%;
+    left: 52%;
+    color:white;
+}
+
+#Down2{
+    top:45%;
+    left: 62.5%;
+    color:white;
+}
+
+#Right2{
+    top:35%;
+    left: 75%;
+    color:white;
+}
+
+.wasd{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    top:20%;
+    left: 15%;
+}
+
+.arrow_keys{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    top:20%;
+    left: 55%;
+
+}
+
+.Q{
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top:60%;
+    left: 15%;
+}
+
+.key_1{
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top:60%;
+    left: 28.5%;
+}
+
+.hifen{
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top:60%;
+    left: 55%;
+}
+
+.point{
+    position: absolute;
+    width: 7%;
+    height: 12%;
+    top:60%;
+    left: 68.5%;
+}
+
+#Shoot{
+    top:72.5%;
+    left: 15.5%;
+    color:white;
+}
+
+#MineDrop{
+    top:72.5%;
+    left: 27.5%;
+    color:white;
+}
+
+#Shoot2{
+    top:72.5%;
+    left: 55.5%;
+    color:white;
+}
+
+#MineDrop2{
+    top:72.5%;
+    left: 67.5%;
+    color:white;
+}

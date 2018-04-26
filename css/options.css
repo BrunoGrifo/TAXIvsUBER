@@ -1,0 +1,89 @@
+html{
+    overflow: hidden;
+}
+
+button {
+    background-color: Transparent;
+    font-family: Impact, Charcoal, sans-serif;
+    position:absolute;
+    left: 70%;
+    border: none;
+    cursor:pointer;
+    overflow: auto;
+    outline:none;
+    font-weight:900;
+    font-size: 200%;
+    color:#EF7B2A;
+}
+
+body{
+    background-size: 100% 100%;
+
+}
+.background {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+#som_off{
+    position:absolute;
+    width: auto;
+    height: auto;
+    top: 34%;
+    left:22%;
+}
+
+#som_on{
+    position:absolute;
+    width: auto;
+    height: auto;
+    top: 33%;
+    left:73%;
+}
+
+#Back{
+    top:80%;
+    left: 80%;
+}
+
+#Back:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#volume {
+    position:fixed;
+    cursor:pointer;
+    width:40%;
+    height:20px;
+    top: 37.5%;
+    left: 30%;
+    background-color:#000;
+    border-radius: 5px;
+}
+
+#volumeBar {
+    display:block;
+    height:20px;
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-color:white;
+    z-index:10;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#label_volume{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-family: Impact, Charcoal, sans-serif;
+    color:#EF7B2A;
+}

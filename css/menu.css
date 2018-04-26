@@ -1,0 +1,115 @@
+button {
+    background-color: Transparent;
+    font-family: Impact, Charcoal, sans-serif;
+    position:absolute;
+    left: 70%;
+    border: none;
+    cursor:pointer;
+    overflow: auto;
+    outline:none;
+    font-weight:900;
+    font-size: 200%;
+    color:#EF7B2A;
+
+
+}
+
+body{
+    background-size: 100% 100%;
+
+}
+.background {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    position:absolute;
+    width: 50%;
+    height: auto;
+    top: 0px;
+    left:10%;
+}
+.taxi {
+    position:absolute;
+    width: 30%;
+    height: auto;
+    top: 53%;
+    left:33%;
+}
+.uber {
+    position:absolute;
+    width: 28%;
+    height: auto;
+    top: 35%;
+    left:10%;
+}
+
+#start{
+    top:20%;
+}
+#start:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#options{
+    top:30%;
+}
+#options:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#free{
+    top:40%;
+}
+#free:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#help{
+    top:50%;
+}
+#help:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#credits{
+    top:60%;
+}
+#credits:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
+
+#exit{
+    top:70%;
+}
+#exit:hover{
+    transform:rotate(-7deg);
+    transition:0.5s;
+    cursor:pointer;
+    font-size: 220%;
+    color:white;
+}
